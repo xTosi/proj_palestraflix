@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PALESTRAFLIX</title>
+    
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
 </head>
 <body>
     <header>
@@ -22,22 +26,57 @@
         </div>
     </header>
     <main>
-        <div class="filmeprincipal">
+        <div class="mainfilm">
             <div class="container">
-                <h3 class="titulo">
-                    LIBERTADORES 2021
-                </h3>
-                <p class="descricao">
-                    Segunda Copa Libertadores conquistada pelo Verdão. A primeira no comando de Abel Ferreira.
+                <img id="logomf" src="resources/lib22logo.png" alt="Logo libertadores em sou tri" width="250px">
+                <p>
+                    O Verdão é pela terceira vez campeão da América. Filme que retrata desde o primeiro jogo até a final.
                 </p>
+                <button role="button" class="buttoncontainer" id="button1">
+                    <i class="fa-solid fa-play"></i>
+                    Assistir agora
+                </button>
+                <button role="button" class="buttoncontainer" id="button2">
+                    <i class="fa-solid fa-circle-info"></i>
+                    Saiba mais
+                </button>
             </div>
-            <button role="button" class="button1">
-                Assistir agora
-            </button>
-            <button role="button" class="button2">
-                Saiba mais
-            </button>
         </div>
     </main>
+    <div class="filmcarrousel">
+        <h3>FILMES</h3>
+        <div class="owl-carousel owl-theme">
+            <div class="boxfilm">
+                <img src="resources/brasileirao2016.png" alt="Foto Brasileirão 2016">
+            </div>
+            <div class="boxfilm">
+                <img src="resources/primeiraacademia.png" alt="Foto Primeira Academia">
+            </div>
+            <div class="boxfilm">
+                <img src="resources/libertadores2020.png" alt="Foto Libertadores 2020">
+            </div>
+            <div class="boxfilm">
+                <img src="resources/paulistao1993.png" alt="Foto Paulistao 93">
+            </div>
+            <div class="boxfilm">
+                <img src="resources/brasileirao2018.png" alt="Foto Brasileirão 2018">
+            </div>
+            <div class="boxfilm">
+                <img src="resources/despedidasaomarcos.png" alt="Foto Despedida Marcos">
+            </div>
+            <div class="boxfilm">
+                <img src="resources/copadobrasil2015.png" alt="Foto Copa do Brasil 2015">
+            </div>
+            <div class="boxfilm">
+                <img src="resources/libertadores99.png" alt="Foto Libertadores 1999">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.js"></script>
+    <script src="https://kit.fontawesome.com/c486b34193.js" crossorigin="anonymous"></script>
+    <script src="js/owl/setup.js"></script>
+
 </body>
 </html>
